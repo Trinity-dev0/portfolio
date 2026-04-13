@@ -6,6 +6,7 @@
   <title>Trinity Dev · agency-grade portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
     * {
       font-family: 'Inter', system-ui, sans-serif;
@@ -50,8 +51,7 @@
       <a href="#contact" class="hover:text-black transition">Contact</a>
     </div>
     <a href="#contact"
-      class="bg-gray-900 text-white text-sm px-5 py-2.5 rounded-full hover:bg-gray-800 transition shadow-sm">Work with
-      us →</a>
+      class="bg-gray-900 text-white text-sm px-5 py-2.5 rounded-full hover:bg-gray-800 transition shadow-sm">Work with us <i class='fas fa-arrow-right ml-1'></i></a>
   </nav>
 
   <!-- HERO: three images side by side, unified headline -->
@@ -105,7 +105,7 @@
         a project</a>
       <a href="#projects"
         class="border border-gray-300 bg-white/70 backdrop-blur-sm px-7 py-3.5 rounded-full text-base font-medium hover:bg-white transition shadow-sm">View
-        our work →</a>
+        our work <i class='fas fa-arrow-right ml-1'></i></a>
     </div>
     <p class="text-sm text-gray-400 mt-8 flex items-center justify-center gap-2">
       <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Based in Luanda · Available worldwide
@@ -297,10 +297,15 @@
     </div>
     <div class="space-y-6">
       <!-- Project 1 - Automated grading (back+front+IA) -->
-      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover">
+      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover relative">
+        
         <div class="flex flex-wrap gap-3 items-center justify-between">
           <h3 class="text-xl font-bold">Automated exam correction (American format) + AI</h3>
-          <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full">NTC · 2025</span>
+          <div class="flex items-center gap-2">
+            <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full">NTC · 2025</span>
+            <a href="#" class="text-gray-400 hover:text-gray-600 transition"><i class="fas fa-external-link-alt text-sm"></i></a>
+          </div>
+          
         </div>
         <p class="text-gray-600 mt-2">Full‑stack system with React/TypeScript frontend, Python/Django+DRF backend,
           Celery for background correction, and integrated AI. Omar led backend architecture; João built the interface &
@@ -315,10 +320,15 @@
         </div>
       </div>
       <!-- Project 2 - SmartFood & CAF Connect -->
-      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover">
+      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover relative">
+        
         <div class="flex flex-wrap gap-3 items-center justify-between">
           <h3 class="text-xl font-bold">SmartFood · CAF Connect · Voting system</h3>
-          <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full">NTC · backend/QA</span>
+          <div class="flex items-center gap-2">
+            <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full">NTC · backend/QA</span>
+          <a href="#" class="text-gray-400 hover:text-gray-600 transition"><i class="fas fa-external-link-alt text-sm"></i></a>
+          </div>
+          
         </div>
         <p class="text-gray-600 mt-2">Developed and tested REST APIs for food automation and institutional voting.
           Patrício executed functional tests and mass data simulation; Omar built secure APIs with Django/FastAPI; João
@@ -332,10 +342,15 @@
         </div>
       </div>
       <!-- Project 3 - NASA Space Apps (winner) + academic recommendation -->
-      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover">
+      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover relative">
+        
         <div class="flex flex-wrap gap-3 items-center justify-between">
           <h3 class="text-xl font-bold">NASA Space Apps Champion · Academic recommendation engine</h3>
-          <span class="bg-amber-50 text-amber-700 text-xs px-3 py-1 rounded-full">Hackathon winner 2025</span>
+          <div class="flex items-center gap-2">
+            <span class="bg-amber-50 text-amber-700 text-xs px-3 py-1 rounded-full">Hackathon winner 2025</span>
+            <a href="#" class="text-gray-400 hover:text-gray-600 transition"><i class="fas fa-external-link-alt text-sm"></i></a>
+          </div>
+          
         </div>
         <p class="text-gray-600 mt-2">Omar built semantic search API for article recommendations; João designed the
           UI/UX and frontend integration; team Lactus won 1st place NASA Space Apps Angola. Combined skills in Python,
