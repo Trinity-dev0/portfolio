@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title>Trinity Dev · agency-grade portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
@@ -51,7 +53,8 @@
       <a href="#contact" class="hover:text-black transition">Contact</a>
     </div>
     <a href="#contact"
-      class="bg-gray-900 text-white text-sm px-5 py-2.5 rounded-full hover:bg-gray-800 transition shadow-sm">Work with us <i class='fas fa-arrow-right ml-1'></i></a>
+      class="bg-gray-900 text-white text-sm px-5 py-2.5 rounded-full hover:bg-gray-800 transition shadow-sm">Work with
+      us <i class='fas fa-arrow-right ml-1'></i></a>
   </nav>
 
   <!-- HERO: three images side by side, unified headline -->
@@ -148,13 +151,19 @@
         <div class="flex items-center gap-4 mt-6">
           <div class="flex -space-x-3">
             <div class="w-8 h-8 rounded-full bg-blue-200 border-2 border-white">
-              <div class="w-8 h-8 rounded-full bg-[url('https://ui-avatars.com/api/?name=Patricio+B&length=2&background=0D8F81&color=fff&bold=true&size=112')] bg-cover"></div>
+              <div
+                class="w-8 h-8 rounded-full bg-[url('https://ui-avatars.com/api/?name=Patricio+B&length=2&background=0D8F81&color=fff&bold=true&size=112')] bg-cover">
+              </div>
             </div>
             <div class="w-8 h-8 rounded-full bg-indigo-200 border-2 border-white">
-              <div class="w-8 h-8 rounded-full bg-[url('https://ui-avatars.com/api/?name=Omar+R&length=2&background=2563EB&color=fff&bold=true&size=128')] bg-cover"></div>
+              <div
+                class="w-8 h-8 rounded-full bg-[url('https://ui-avatars.com/api/?name=Omar+R&length=2&background=2563EB&color=fff&bold=true&size=128')] bg-cover">
+              </div>
             </div>
             <div class="w-8 h-8 rounded-full bg-sky-200 border-2 border-white">
-              <div class="w-8 h-8 rounded-full bg-[url('https://ui-avatars.com/api/?name=Joao+T&length=2&background=1E3A8A&color=fff&bold=true&size=112')] bg-cover"></div>
+              <div
+                class="w-8 h-8 rounded-full bg-[url('https://ui-avatars.com/api/?name=Joao+T&length=2&background=1E3A8A&color=fff&bold=true&size=112')] bg-cover">
+              </div>
             </div>
           </div>
           <span class="text-sm text-gray-500">Patrício · Omar · João</span>
@@ -298,14 +307,15 @@
     <div class="space-y-6">
       <!-- Project 1 - Automated grading (back+front+IA) -->
       <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover relative">
-        
+
         <div class="flex flex-wrap gap-3 items-center justify-between">
           <h3 class="text-xl font-bold">Automated exam correction (American format) + AI</h3>
           <div class="flex items-center gap-2">
             <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full">NTC · 2025</span>
-            <a href="#" class="text-gray-400 hover:text-gray-600 transition"><i class="fas fa-external-link-alt text-sm"></i></a>
+            <a href="#" class="restricted-project-link text-gray-400 hover:text-gray-600 transition"><i
+                class="fas fa-external-link-alt text-sm"></i></a>
           </div>
-          
+
         </div>
         <p class="text-gray-600 mt-2">Full‑stack system with React/TypeScript frontend, Python/Django+DRF backend,
           Celery for background correction, and integrated AI. Omar led backend architecture; João built the interface &
@@ -319,48 +329,67 @@
             class="bg-gray-100 px-3 py-1 text-xs rounded-full">PostgreSQL</span>
         </div>
       </div>
-      <!-- Project 2 - SmartFood & CAF Connect -->
+      <!-- Project 4 - Kandala -->
       <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover relative">
-        
+
         <div class="flex flex-wrap gap-3 items-center justify-between">
-          <h3 class="text-xl font-bold">SmartFood · CAF Connect · Voting system</h3>
+          <h3 class="text-xl font-bold">Kandala · Beauty Salon Landing Page</h3>
           <div class="flex items-center gap-2">
-            <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full">NTC · backend/QA</span>
-          <a href="#" class="text-gray-400 hover:text-gray-600 transition"><i class="fas fa-external-link-alt text-sm"></i></a>
+            <span class="bg-pink-50 text-pink-700 text-xs px-3 py-1 rounded-full">Frontend/UI</span>
+            <a href="https://kandala.vercel.app/" class="text-gray-400 hover:text-gray-600 transition"><i
+                class="fas fa-external-link-alt text-sm"></i></a>
           </div>
-          
+
         </div>
-        <p class="text-gray-600 mt-2">Developed and tested REST APIs for food automation and institutional voting.
-          Patrício executed functional tests and mass data simulation; Omar built secure APIs with Django/FastAPI; João
-          created voting interfaces and real‑time dashboards.</p>
+        <p class="text-gray-600 mt-2">A modern and elegant landing page designed for a beauty salon to showcase their
+          premium services and enhance digital presence. Designed with Figma and developed to be fully responsive
+          focusing on a high-converting user experience.</p>
         <div class="flex flex-wrap gap-2 mt-4">
-          <span class="bg-gray-100 px-3 py-1 text-xs rounded-full">FastAPI</span><span
-            class="bg-gray-100 px-3 py-1 text-xs rounded-full">React</span><span
-            class="bg-gray-100 px-3 py-1 text-xs rounded-full">Postman</span><span
+          <span class="bg-gray-100 px-3 py-1 text-xs rounded-full">Next.js</span><span
             class="bg-gray-100 px-3 py-1 text-xs rounded-full">Figma</span><span
-            class="bg-gray-100 px-3 py-1 text-xs rounded-full">MySQL</span>
+            class="bg-gray-100 px-3 py-1 text-xs rounded-full">Tailwind CSS</span>
         </div>
       </div>
-      <!-- Project 3 - NASA Space Apps (winner) + academic recommendation -->
+      <!-- Project 5 - Internal Voting System -->
       <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover relative">
-        
+
         <div class="flex flex-wrap gap-3 items-center justify-between">
-          <h3 class="text-xl font-bold">NASA Space Apps Champion · Academic recommendation engine</h3>
+          <h3 class="text-xl font-bold">Internal Voting System</h3>
           <div class="flex items-center gap-2">
-            <span class="bg-amber-50 text-amber-700 text-xs px-3 py-1 rounded-full">Hackathon winner 2025</span>
-            <a href="#" class="text-gray-400 hover:text-gray-600 transition"><i class="fas fa-external-link-alt text-sm"></i></a>
+            <span class="bg-indigo-50 text-indigo-700 text-xs px-3 py-1 rounded-full">Colégio Árvore da
+              Felicidade</span>
+            <a href="https://caf-boravotar.vercel.app/login" class="text-gray-400 hover:text-gray-600 transition"><i
+                class="fas fa-external-link-alt text-sm"></i></a>
           </div>
-          
+
         </div>
-        <p class="text-gray-600 mt-2">Omar built semantic search API for article recommendations; João designed the
-          UI/UX and frontend integration; team Lactus won 1st place NASA Space Apps Angola. Combined skills in Python,
-          vector search, and pixel‑perfect implementation.</p>
+        <p class="text-gray-600 mt-2">A secure internal web application developed for Colégio Árvore da Felicidade
+          activities. It features real-time voting, live ranking boards, score tracking, and a comprehensive management
+          dashboard for administrators.</p>
         <div class="flex flex-wrap gap-2 mt-4">
-          <span class="bg-gray-100 px-3 py-1 text-xs rounded-full">Python</span><span
-            class="bg-gray-100 px-3 py-1 text-xs rounded-full">Flask</span><span
-            class="bg-gray-100 px-3 py-1 text-xs rounded-full">Next.js</span><span
-            class="bg-gray-100 px-3 py-1 text-xs rounded-full">Tailwind</span><span
-            class="bg-gray-100 px-3 py-1 text-xs rounded-full">MongoDB</span>
+          <span class="bg-gray-100 px-3 py-1 text-xs rounded-full">React</span><span
+            class="bg-gray-100 px-3 py-1 text-xs rounded-full">TypeScript</span><span
+            class="bg-gray-100 px-3 py-1 text-xs rounded-full">Django</span><span
+            class="bg-gray-100 px-3 py-1 text-xs rounded-full">DRF</span>
+        </div>
+      </div>
+      <!-- Project 6 - zakki -->
+      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-200 shadow-sm card-hover relative">
+        <div class="flex flex-wrap gap-3 items-center justify-between">
+          <h3 class="text-xl font-bold">zakki · AI Assistant</h3>
+          <div class="flex items-center gap-2">
+            <span class="bg-emerald-50 text-emerald-700 text-xs px-3 py-1 rounded-full">AI/FullStack</span>
+            <a href="#" class="restricted-project-link text-gray-400 hover:text-gray-600 transition"><i
+                class="fas fa-external-link-alt text-sm"></i></a>
+          </div>
+        </div>
+        <p class="text-gray-600 mt-2">A highly capable AI assistant powered by OpenAI and Gemini, designed for precise,
+          context-aware, and structured interactions.</p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="bg-gray-100 px-3 py-1 text-xs rounded-full">Next.js</span><span
+            class="bg-gray-100 px-3 py-1 text-xs rounded-full">TypeScript</span><span
+            class="bg-gray-100 px-3 py-1 text-xs rounded-full">OpenAI</span><span
+            class="bg-gray-100 px-3 py-1 text-xs rounded-full">Gemini</span>
         </div>
       </div>
     </div>
@@ -378,11 +407,11 @@
         <div
           class="w-28 h-28 mx-auto rounded-2xl bg-gradient-to-br from-teal-100 to-cyan-100 flex items-center justify-center profile-ring">
           <div
-            class="w-24 h-24 rounded-xl bg-[url('https://ui-avatars.com/api/?name=Patricio+B&length=2&background=0F766E&color=fff&bold=true&size=96')] bg-cover">
+            class="w-24 h-24 rounded-xl bg-[url('https://media.licdn.com/dms/image/v2/D4E03AQEqeQHSRdBcIw/profile-displayphoto-crop_800_800/B4EZmnaGUnGUAI-/0/1759450263040?e=1777507200&v=beta&t=36-QxwxlSui7VXEqb0TeBVWna5EPxrRNGA-s4Fboc_s')] bg-cover">
           </div>
         </div>
         <h3 class="font-bold text-xl mt-5">Patrício Baptista</h3>
-        <p class="text-sm text-blue-700 font-medium">Backend & QA specialist</p>
+        <p class="text-sm text-blue-700 font-medium">Backend & QA</p>
         <p class="text-gray-500 text-sm mt-2">Focus on API validation, functional testing, and Python backend. Brings
           analytical rigor and test‑first mindset.</p>
         <div class="flex flex-wrap justify-center gap-1 mt-3 text-xs text-gray-600">Python · Django · Postman · Testes ·
@@ -393,7 +422,7 @@
         <div
           class="w-28 h-28 mx-auto rounded-2xl bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center profile-ring">
           <div
-            class="w-24 h-24 rounded-xl bg-[url('https://ui-avatars.com/api/?name=Omar+R&length=2&background=2563EB&color=fff&bold=true&size=96')] bg-cover">
+            class="w-24 h-24 rounded-xl bg-[url('https://media.licdn.com/dms/image/v2/D5603AQFxFV52sNL_AQ/profile-displayphoto-crop_800_800/B56ZqcECIdJ4AI-/0/1763554895425?e=1777507200&v=beta&t=dyLSGllpZbT9fJNPcGX6HtPEL5dhhf8loaMkgqOdc9c')] bg-cover">
           </div>
         </div>
         <h3 class="font-bold text-xl mt-5">Omar Rodrigues</h3>
@@ -408,7 +437,7 @@
         <div
           class="w-28 h-28 mx-auto rounded-2xl bg-gradient-to-br from-sky-100 to-blue-100 flex items-center justify-center profile-ring">
           <div
-            class="w-24 h-24 rounded-xl bg-[url('https://ui-avatars.com/api/?name=Joao+T&length=2&background=1E3A8A&color=fff&bold=true&size=96')] bg-cover">
+            class="w-24 h-24 rounded-xl bg-[url('https://media.licdn.com/dms/image/v2/D4D03AQEQXr4980XpQA/profile-displayphoto-crop_800_800/B4DZyPPXuqJwAI-/0/1771929699796?e=1777507200&v=beta&t=QPn4-eeROM5B-SDrw44nWW6G-yiwUdozJQAjAzmoebw')] bg-cover">
           </div>
         </div>
         <h3 class="font-bold text-xl mt-5">João Tambue</h3>
@@ -442,7 +471,8 @@
               class="w-full px-5 py-3 rounded-xl border border-gray-200 bg-white/80 focus:outline-none focus:ring-2 focus:ring-blue-200"></textarea>
             <button
               class="bg-gray-900 text-white w-full py-3 rounded-xl font-medium hover:bg-gray-800 transition shadow-sm">Send
-              message</button>
+              message
+            </button>
           </form>
         </div>
       </div>
@@ -454,6 +484,7 @@
     <p>Trinity.dev — unified portfolio of Patrício Baptista, Omar Rodrigues & João Tambue · Luanda, Angola</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
